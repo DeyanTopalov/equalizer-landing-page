@@ -1,0 +1,143 @@
+:root {
+    /* Colors */
+    --clr-hsl-cyan: 177°, 68%, 64%;
+    --clr-hsl-orange: 12°, 94%, 65%;
+    --clr-hsl-yellow: 33°, 100%, 70%;
+    --clr-hsl-white: 20°, 33%, 98%;
+    --clr-hsl-black: 244°, 23%, 12%;
+
+    /* Typography */
+    --ff-body: 'IBM Plex Sans', sans-serif;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+    --fs-xs: 1rem;
+    --fs-s: 1.125rem;
+    --fs-m: 1.25rem;
+    --fs-xm: 2rem;
+    --fs-l: 2.5rem;
+    --fs-xl: 4rem;
+    --fs-xxl: 5.5rem;
+
+    /* Others */
+
+    --spacing-xxs: 0.25rem;
+    --spacing-xs: 0.5rem;
+    --spacing-s: 0.75rem;
+    --spacing-m: 1rem;
+    --spacing-l: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-xxl: 2.25rem;
+    --spacing-xxxl: 2.5rem;
+
+    --brd-radius: 0.75rem;
+
+    /* Responsive */
+
+
+
+
+    /* Desktop ------- TBD ----------*/
+
+    /* Padding inline (logo/title/1st P) - 39px */
+    /* Padding inline (orange card) unvalid */
+    /* (Not in Mobile) Padding inline Black card - 33px */
+    /* Padding Top to Logo 62px */
+    /* Padding Logo to Title 95px */
+    /* Title to 1st P 28px */
+    /* 1st P to Black Card - 249px */
+    /* Black Card Height - 600px */
+    /* Orange Card - Top Padding 48px */
+    /* Orange Card side Padding - 48px */
+    /* Orange Card - Title to 2nd P - 12px */
+    /* Orange Card - 2nd P to Price - 36px */
+    /* Orange Card - Price to IOS button - 32px */
+    /* Orange Card - IOS to Android Button - 16px */
+    /* Button - Text to Logo - 8px */
+    /* Button - Padding top/bottom 15px */
+    /* Button to Orange Card bottom - 48px */
+    /* Orange(Black Card) Card to Bottom Logo - 183px */
+    /* Bottom Logo to 3rd P -  32px */
+    /* 3rd P to SocMedia -  Layout Switch */
+    /* SocMedia to Bottom - Layout Switch */
+    /* 3rd P to Bottom -  85px */
+
+    /* [Resp] FS Title - 64px */
+    /* [Resp] FS 1st P -  18px */
+    /* FS Orange Card Title - 32px */
+    /* FS 2nd P - 18px */
+    /* FS Span - 65px */
+    /* FS "month" - 20px */
+    /* FS Button - 18px */
+    /* FS 3rd P - 16px */
+
+
+    /* Tablet */
+
+    /* Padding inline (logo/title/1st P) - 39px */
+    /* Padding inline (orange card) unvalid */
+    /* (Not in Mobile) Padding inline Black card - 33px */
+    /* Padding Top to Logo 62px */
+    /* Padding Logo to Title 95px */
+    /* Title to 1st P 28px */
+    /* 1st P to Black Card - 249px */
+    /* Black Card Height - 600px */
+    /* Orange Card - Top Padding 48px */
+    /* Orange Card side Padding - 48px */
+    /* Orange Card - Title to 2nd P - 12px */
+    /* Orange Card - 2nd P to Price - 36px */
+    /* Orange Card - Price to IOS button - 32px */
+    /* Orange Card - IOS to Android Button - 16px */
+    /* Button - Text to Logo - 8px */
+    /* Button - Padding top/bottom 15px */
+    /* Button to Orange Card bottom - 48px */
+    /* Orange(Black Card) Card to Bottom Logo - 183px */
+    /* Bottom Logo to 3rd P -  32px */
+    /* 3rd P to SocMedia -  Layout Switch */
+    /* SocMedia to Bottom - Layout Switch */
+    /* 3rd P to Bottom -  85px */
+
+    /* [Resp] FS Title - 64px */
+    /* [Resp] FS 1st P -  18px */
+    /* FS Orange Card Title - 32px */
+    /* FS 2nd P - 18px */
+    /* FS Span - 65px */
+    /* FS "month" - 20px */
+    /* FS Button - 18px */
+    /* FS 3rd P - 16px */
+
+    /* Mobile */
+
+    /* Padding inline (logo/title/1st P) - 24px */
+    /* Padding inline (orange card) 36px */
+    /* Padding Top to Logo 40px */
+    /* Padding Logo to Title 64px */
+    /* Title to 1st P 20px */
+    /* 1st P to Black Card - 166px */
+    /* Black Card Height - 600px */
+    /* Orange Card - Top Padding 48px */
+    /* Orange Card side Padding - 36px */
+    /* Orange Card - Title to 2nd P - 12px */
+    /* Orange Card - 2nd P to Price - 36px */
+    /* Orange Card - Price to IOS button - 32px */
+    /* Orange Card - IOS to Android Button - 16px */
+    /* Button - Text to Logo - 8px */
+    /* Button - Padding top/bottom 15px */
+    /* Button to Orange Card bottom - 48px */
+    /* Orange Card to Bottom Logo - 64px */
+    /* Bottom Logo to 3rd P -  32px */
+    /* 3rd P to SocMedia -  64px */
+    /* SocMedia to Bottom - 80px */
+
+    /* FS Title - 40px */
+    /* FS 1st P -  16px */
+    /* FS Orange Card Title - 32px */
+    /* FS 2nd P - 18px */
+    /* FS Span - 65px */
+    /* FS "month" - 20px */
+    /* FS Button - 18px */
+    /* FS 3rd P - 16px */
+
+
+}
