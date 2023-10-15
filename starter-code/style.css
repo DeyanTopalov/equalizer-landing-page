@@ -38,35 +38,35 @@
 
 
 
-    /* Desktop ------- TBD ----------*/
+    /* Desktop */
 
-    /* Padding inline (logo/title/1st P) - 39px */
-    /* Padding inline (orange card) unvalid */
-    /* (Not in Mobile) Padding inline Black card - 33px */
-    /* Padding Top to Logo 62px */
-    /* Padding Logo to Title 95px */
-    /* Title to 1st P 28px */
-    /* 1st P to Black Card - 249px */
+    /* [Resp] Padding inline (logo/title/1st P) - 165px */
+    /* [Resp] Padding inline (orange card) unvalid */
+    /* [Resp] (Not in Mobile) Padding inline Black card - 165px */
+    /* [Resp] Padding Top to Logo 62px */
+    /* [Resp] Padding Logo to Title 127px */
+    /* [Resp] Title to 1st P 40px */
+    /* [Resp] 1st P to Black Card - 321px */
     /* Black Card Height - 600px */
-    /* Orange Card - Top Padding 48px */
-    /* Orange Card side Padding - 48px */
-    /* Orange Card - Title to 2nd P - 12px */
-    /* Orange Card - 2nd P to Price - 36px */
-    /* Orange Card - Price to IOS button - 32px */
+    /* [Resp] Orange Card - Top Padding 58px */
+    /* [Resp] Orange Card side Padding - 58px */
+    /* [Resp] Orange Card - Title to 2nd P - 22px */
+    /* [Resp] Orange Card - 2nd P to Price - 39px */
+    /* [Resp] Orange Card - Price to IOS button - 46px */
     /* Orange Card - IOS to Android Button - 16px */
     /* Button - Text to Logo - 8px */
     /* Button - Padding top/bottom 15px */
     /* Button to Orange Card bottom - 48px */
     /* Orange(Black Card) Card to Bottom Logo - 183px */
-    /* Bottom Logo to 3rd P -  32px */
+    /* Bottom Logo to 3rd P -  202px Layout Switch */
     /* 3rd P to SocMedia -  Layout Switch */
     /* SocMedia to Bottom - Layout Switch */
-    /* 3rd P to Bottom -  85px */
+    /* [Resp] 3rd P to Bottom -  91px */
 
-    /* [Resp] FS Title - 64px */
-    /* [Resp] FS 1st P -  18px */
-    /* FS Orange Card Title - 32px */
-    /* FS 2nd P - 18px */
+    /* [Resp] FS Title - 88px */
+    /* [Resp] FS 1st P -  20px */
+    /* [Resp] FS Orange Card Title - 40px */
+    /* [Resp] FS 2nd P - 20px */
     /* FS Span - 65px */
     /* FS "month" - 20px */
     /* FS Button - 18px */
@@ -75,10 +75,10 @@
 
     /* Tablet */
 
-    /* Padding inline (logo/title/1st P) - 39px */
-    /* Padding inline (orange card) unvalid */
-    /* (Not in Mobile) Padding inline Black card - 33px */
-    /* Padding Top to Logo 62px */
+    /* [Resp]Padding inline (logo/title/1st P) - 39px */
+    /* [Resp]Padding inline (orange card) unvalid */
+    /* [Resp](Not in Mobile) Padding inline Black card - 33px */
+    /* [Resp] Padding Top to Logo 62px */
     /* Padding Logo to Title 95px */
     /* Title to 1st P 28px */
     /* 1st P to Black Card - 249px */
@@ -109,10 +109,10 @@
 
     /* Mobile */
 
-    /* Padding inline (logo/title/1st P) - 24px */
-    /* Padding inline (orange card) 36px */
-    /* Padding Top to Logo 40px */
-    /* Padding Logo to Title 64px */
+    /* [Resp] Padding inline (logo/title/1st P) - 24px */
+    /* [Resp] Padding inline (orange card) 36px */
+    /* [Resp] Padding Top to Logo 40px */
+    /* [Resp] Padding Logo to Title 64px */
     /* Title to 1st P 20px */
     /* 1st P to Black Card - 166px */
     /* Black Card Height - 600px */
