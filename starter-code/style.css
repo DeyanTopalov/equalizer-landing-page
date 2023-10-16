@@ -1,10 +1,10 @@
 :root {
     /* Colors */
-    --clr-hsl-cyan: 177°, 68%, 64%;
-    --clr-hsl-orange: 12°, 94%, 65%;
-    --clr-hsl-yellow: 33°, 100%, 70%;
-    --clr-hsl-white: 20°, 33%, 98%;
-    --clr-hsl-black: 244°, 23%, 12%;
+    --clr-hsl-cyan: 177, 68%, 64%;
+    --clr-hsl-orange: 12, 94%, 65%;
+    --clr-hsl-yellow: 33, 100%, 70%;
+    --clr-hsl-white: 20, 33%, 98%;
+    --clr-hsl-black: 244, 23%, 12%;
 
     /* Typography */
     --ff-body: 'IBM Plex Sans', sans-serif;
@@ -34,7 +34,20 @@
     --brd-radius: 0.75rem;
 
     /* Responsive */
+    --hero-pading-inline-responsive: 1.5rem;
+    --logo-padding-top-responsive: 2.5rem;
+    --logo-padding-bottom-responsive: 4rem;
+    --title-padding-bottom-responsive: 1.25rem;
+    --hero-p-padding-bottom-responsive: 10.375rem;
+    --promo-title-padding-bottom-responsive: 0.75rem;
+    --promo-p-padding-bottom-responsive: 2.25rem;
 
+    --fs-tittle-responsive: 2.5rem;
+    --fs-hero-p-responsive: 1rem;
+    --fs-promo-title-responsive: 2rem;
+    --fs-promo-p-responsive: 1.125rem;
+
+    --promo-bg-responsove: url(assets/bg-pattern-2.svg);
 
 
 
@@ -140,4 +153,88 @@
     /* FS 3rd P - 16px */
 
 
+}
+
+body {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-regular);
+}
+
+.hero {
+    padding-inline: var(--hero-pading-inline-responsive);
+}
+
+.logo {
+    padding-top: var(--logo-padding-top-responsive);
+    padding-bottom: var(--logo-padding-bottom-responsive);
+}
+
+.hero_title {
+    font-size: var(--fs-tittle-responsive);
+    font-weight: var(--fw-bold);
+    line-height: 48px;
+    letter-spacing: -0.455px;
+    padding-bottom: var(--title-padding-bottom-responsive);
+
+}
+
+.hero_p {
+    font-size: var(--fs-hero-p-responsive);
+    padding-bottom: var(--hero-p-padding-bottom-responsive);
+}
+
+.promo {
+    background-color: hsla(var(--clr-hsl-black), 1);
+    width: 375px;
+    /* edit later */
+    height: 600px;
+    border-radius: var(--brd-radius);
+    background-image: var(--promo-bg-responsove);
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+.promo_app {
+    max-width: 60%;
+    /* aspect-ratio: 16/9; */
+    margin-left: 80px;
+    transform: translateY(-98px);
+}
+
+.promo_box {
+    transform: translateY(-40px);
+    background-color: hsla(var(--clr-hsl-orange), 1);
+    border-radius: var(--brd-radius);
+    display: grid;
+    gap: 0.5rem;
+    padding-inline: 36px;
+    padding-block: 48px;
+
+    color: hsla(var(--clr-hsl-white), 1);
+
+}
+
+.promo_title {
+    font-size: var(--fs-promo-title-responsive);
+    font-weight: var(--fw-bold);
+    padding-bottom: var(--promo-title-padding-bottom-responsive);
+}
+
+.promo_p {
+    font-size: var(--fs-promo-p-responsive);
+    padding-bottom: var(--promo-p-padding-bottom-responsive);
+}
+
+.promo_price {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+span {
+    font-size: 64px;
+    font-weight: var(--fw-bold);
 }
