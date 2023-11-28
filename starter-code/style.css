@@ -1,5 +1,4 @@
 :root {
-    /* Colors */
     --clr-hsl-cyan: 177, 68%, 64%;
     --clr-hsl-orange: 12, 94%, 65%;
     --clr-hsl-yellow: 33, 100%, 70%;
@@ -20,6 +19,11 @@
     --fs-xl: 4rem;
     --fs-xxl: 5.5rem;
 
+    --fs-span-price: 4.0625rem;
+    --fs-price: var(--fs-m);
+    --fs-button: var(--fs-s);
+    --fs-footer-p: var(--fs-xs);
+
     /* Others */
 
     --spacing-xxs: 0.25rem;
@@ -32,233 +36,170 @@
     --spacing-xxxl: 2.5rem;
 
     --brd-radius: 0.75rem;
+    --promo-bg-img: url(assets/bg-pattern-2.svg);
 
     /* Responsive */
-    --hero-pading-inline-responsive: 1.5rem;
-    --logo-padding-top-responsive: 2.5rem;
-    --logo-padding-bottom-responsive: 4rem;
-    --title-padding-bottom-responsive: 1.25rem;
-    --hero-p-padding-bottom-responsive: 10.375rem;
-    --promo-title-padding-bottom-responsive: 0.75rem;
-    --promo-p-padding-bottom-responsive: 2.25rem;
 
-    --fs-tittle-responsive: 2.5rem;
-    --fs-hero-p-responsive: 1rem;
-    --fs-promo-title-responsive: 2rem;
-    --fs-promo-p-responsive: 1.125rem;
+    /* Resp - Layout */
+    --grid-sml-columns: 1.5rem;
+    --grid-big-column:
+        min(100% - (var(--grid-sml-columns)*2), 69.375rem);
+    --body-padding-top: 2.5rem;
+    --body-padding-bottom: 5rem;
+    --header-width: 100%;
+    --top-logo-to-tittle: 4rem;
+    --tittle-padding-bottom: 1.25rem;
+    --header-p-to-promo: 4.25rem;
+    --promo-to-footer: 4rem;
+    --promo-height: 64rem;
+    --promo-grid-column: 1/-1;
+    --card-padding-block: 3rem;
+    --card-padding-inline: 2.25rem;
+    --card-title-padding-bottom: 0.75rem;
+    --card-height: 34.125rem;
+    --promo-app-width-responsive: 55.6%;
+    --footer-p-width: 100%;
 
-    --promo-bg-responsove: url(assets/bg-pattern-2.svg);
+    --promo-row-1: 6.125rem;
+    --promo-row-2: 37.5rem;
+    --promo-row-3: 20.375rem;
 
+    --promo-app-width: 13rem;
+    --promo-app-translate: 5rem;
+    --promo-card-width: 100%;
+    --promo-card-height: 34.125rem;
+    --promo-card-translate: 0rem;
 
+    --bg-image: url(assets/bg-main-mobile.png);
 
-    /* Desktop */
-
-    /* [Resp] Padding inline (logo/title/1st P) - 165px */
-    /* [Resp] Padding inline (orange card) unvalid */
-    /* [Resp] (Not in Mobile) Padding inline Black card - 165px */
-    /* [Resp] Padding Top to Logo 62px */
-    /* [Resp] Padding Logo to Title 127px */
-    /* [Resp] Title to 1st P 40px */
-    /* [Resp] 1st P to Black Card - 321px */
-    /* Black Card Height - 600px */
-    /* [Resp] Orange Card - Top Padding 58px */
-    /* [Resp] Orange Card side Padding - 58px */
-    /* [Resp] Orange Card - Title to 2nd P - 22px */
-    /* [Resp] Orange Card - 2nd P to Price - 39px */
-    /* [Resp] Orange Card - Price to IOS button - 46px */
-    /* Orange Card - IOS to Android Button - 16px */
-    /* Button - Text to Logo - 8px */
-    /* Button - Padding top/bottom 15px */
-    /* Button to Orange Card bottom - 48px */
-    /* Orange(Black Card) Card to Bottom Logo - 183px */
-    /* Bottom Logo to 3rd P -  202px Layout Switch */
-    /* 3rd P to SocMedia -  Layout Switch */
-    /* SocMedia to Bottom - Layout Switch */
-    /* [Resp] 3rd P to Bottom -  91px */
-
-    /* [Resp] FS Title - 88px */
-    /* [Resp] FS 1st P -  20px */
-    /* [Resp] FS Orange Card Title - 40px */
-    /* [Resp] FS 2nd P - 20px */
-    /* FS Span - 65px */
-    /* FS "month" - 20px */
-    /* FS Button - 18px */
-    /* FS 3rd P - 16px */
-
-
-    /* Tablet */
-
-    /* [Resp]Padding inline (logo/title/1st P) - 39px */
-    /* [Resp]Padding inline (orange card) unvalid */
-    /* [Resp](Not in Mobile) Padding inline Black card - 33px */
-    /* [Resp] Padding Top to Logo 62px */
-    /* Padding Logo to Title 95px */
-    /* Title to 1st P 28px */
-    /* 1st P to Black Card - 249px */
-    /* Black Card Height - 600px */
-    /* Orange Card - Top Padding 48px */
-    /* Orange Card side Padding - 48px */
-    /* Orange Card - Title to 2nd P - 12px */
-    /* Orange Card - 2nd P to Price - 36px */
-    /* Orange Card - Price to IOS button - 32px */
-    /* Orange Card - IOS to Android Button - 16px */
-    /* Button - Text to Logo - 8px */
-    /* Button - Padding top/bottom 15px */
-    /* Button to Orange Card bottom - 48px */
-    /* Orange(Black Card) Card to Bottom Logo - 183px */
-    /* Bottom Logo to 3rd P -  32px */
-    /* 3rd P to SocMedia -  Layout Switch */
-    /* SocMedia to Bottom - Layout Switch */
-    /* 3rd P to Bottom -  85px */
-
-    /* [Resp] FS Title - 64px */
-    /* [Resp] FS 1st P -  18px */
-    /* FS Orange Card Title - 32px */
-    /* FS 2nd P - 18px */
-    /* FS Span - 65px */
-    /* FS "month" - 20px */
-    /* FS Button - 18px */
-    /* FS 3rd P - 16px */
-
-    /* Mobile */
-
-    /* [Resp] Padding inline (logo/title/1st P) - 24px */
-    /* [Resp] Padding inline (orange card) 36px */
-    /* [Resp] Padding Top to Logo 40px */
-    /* [Resp] Padding Logo to Title 64px */
-    /* Title to 1st P 20px */
-    /* 1st P to Black Card - 166px */
-    /* Black Card Height - 600px */
-    /* Orange Card - Top Padding 48px */
-    /* Orange Card side Padding - 36px */
-    /* Orange Card - Title to 2nd P - 12px */
-    /* Orange Card - 2nd P to Price - 36px */
-    /* Orange Card - Price to IOS button - 32px */
-    /* Orange Card - IOS to Android Button - 16px */
-    /* Button - Text to Logo - 8px */
-    /* Button - Padding top/bottom 15px */
-    /* Button to Orange Card bottom - 48px */
-    /* Orange Card to Bottom Logo - 64px */
-    /* Bottom Logo to 3rd P -  32px */
-    /* 3rd P to SocMedia -  64px */
-    /* SocMedia to Bottom - 80px */
-
-    /* FS Title - 40px */
-    /* FS 1st P -  16px */
-    /* FS Orange Card Title - 32px */
-    /* FS 2nd P - 18px */
-    /* FS Span - 65px */
-    /* FS "month" - 20px */
-    /* FS Button - 18px */
-    /* FS 3rd P - 16px */
-
+    /* Resp - FS */
+    --fs-title: 2.5rem;
+    --fs-header-p: 1rem;
+    --fs-card-title: 2rem;
+    --fs-card-p: 1.125rem;
 
 }
 
 body {
-    font-family: var(--ff-body);
-    font-weight: var(--fw-regular);
-}
-
-.hero {
-    padding-inline: var(--hero-pading-inline-responsive);
-}
-
-.logo {
-    padding-top: var(--logo-padding-top-responsive);
-    padding-bottom: var(--logo-padding-bottom-responsive);
-}
-
-.hero_title {
-    font-size: var(--fs-tittle-responsive);
-    font-weight: var(--fw-bold);
-    line-height: 48px;
-    letter-spacing: -0.455px;
-    padding-bottom: var(--title-padding-bottom-responsive);
-
-}
-
-.hero_p {
-    font-size: var(--fs-hero-p-responsive);
-    padding-bottom: var(--hero-p-padding-bottom-responsive);
-}
-
-.wrapper {
-    /* height: calc(600px); */
     display: grid;
+    place-content: center;
+    grid-template-columns: var(--grid-sml-columns) var(--grid-big-column) var(--grid-sml-columns);
+    padding-top: var(--body-padding-top);
+    padding-bottom: var(--body-padding-bottom);
+    font-family: var(--ff-body);
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
 }
 
-/* .wrapper>* {
-    grid-column: 1/-1;
-    grid-row: 1/-1;
-} */
+.header,
+.promo,
+.footer {
+    grid-column: 2/3;
+}
+
+.header_title,
+.header_p {
+    max-width: var(--header-width);
+}
+
+.header>.logo {
+    padding-bottom: var(--top-logo-to-tittle);
+}
+
+.header_title {
+    font-size: var(--fs-title);
+    font-weight: var(--fw-bold);
+    line-height: 100%;
+    letter-spacing: -0.455px;
+    padding-bottom: var(--tittle-padding-bottom);
+}
+
+.header_p {
+    font-size: var(--fs-header-p);
+    padding-bottom: var(--header-p-to-promo);
+}
 
 .promo {
+    /* background-color: yellow; */
+    height: var(--promo-height);
+    grid-column: var(--promo-grid-column);
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    grid-template-columns: var(--promo-columns);
+    grid-template-columns: 1fr;
+    grid-template-rows:
+        var(--promo-row-1) var(--promo-row-2) var(--promo-row-3);
+
+}
+
+.promo_bg {
+    grid-column: 1/-1;
+    grid-row: 2/3;
     background-color: hsla(var(--clr-hsl-black), 1);
-    width: 375px;
-    /* edit later */
-    /* height: 600px; */
-    height: 926px;
     border-radius: var(--brd-radius);
-    background-image: var(--promo-bg-responsove);
+    background-image: var(--promo-bg-img);
     background-repeat: no-repeat;
     background-position: top;
-
+    z-index: 1;
 }
 
 .promo_app {
-    max-width: 60%;
-    /* aspect-ratio: 16/9; */
-    margin-left: 80px;
-    bottom: 98px;
-    /* transform: translateY(-98px); */
-    position: relative;
+    grid-column: 1/-1;
+    transform: translateX(5rem);
+    grid-row: 1/3;
+    max-width: var(--promo-app-width);
+    z-index: 2;
 }
 
-.promo_box {
-    /* transform: translateY(-40px); */
+.promo_card {
+    grid-column: 1/-1;
+    justify-self: last baseline;
+    transform: translateX(var(--promo-card-translate));
+    max-width: var(--promo-card-width);
+    grid-row: 2/4;
+    align-self: last baseline;
+    z-index: 3;
     background-color: hsla(var(--clr-hsl-orange), 1);
     border-radius: var(--brd-radius);
     display: grid;
-    padding-inline: 36px;
-    padding-block: 48px;
-    top: -40px;
-    /* top: 38rem; */
+    padding-inline: var(--card-padding-inline);
+    padding-block: var(--card-padding-block);
     color: hsla(var(--clr-hsl-white), 1);
-    /* position: relative; */
-
+    max-height: var(--promo-card-height);
 }
 
-.promo_title {
-    font-size: var(--fs-promo-title-responsive);
+.promo_card_title {
+    font-size: var(--fs-card-title);
     font-weight: var(--fw-bold);
-    padding-bottom: var(--promo-title-padding-bottom-responsive);
+    line-height: 2.5rem;
+    align-self: center;
+    padding-bottom: var(--card-title-padding-bottom);
 }
 
-.promo_p {
-    font-size: var(--fs-promo-p-responsive);
-    padding-bottom: var(--promo-p-padding-bottom-responsive);
+.promo_card_p {
+    font-size: var(--fs-card-p);
+    width: 100%;
 }
 
-.promo_price {
-    font-size: 20px;
+.promo_card_price {
+    font-size: var(--fs-price);
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-    padding-bottom: 2rem;
 }
 
-.price-span {
-    font-size: 64px;
+.price_span {
+    font-size: var(--fs-span-price);
     font-weight: var(--fw-bold);
 }
 
 .button {
     border: none;
     border-radius: var(--brd-radius);
-    padding-block: 15px;
-    font-size: 18px;
+    padding-block: 0.9375rem;
+    font-size: var(--fs-button);
     font-weight: var(--fw-bold);
     display: flex;
     gap: 0.5rem;
@@ -296,41 +237,142 @@ body {
     background-color: hsla(var(--clr-hsl-yellow), 1);
 }
 
-/* .footer {
-    transform: translateY(500px);
-} */
-
 .footer {
-    margin-top: 182px;
-    padding-inline: var(--hero-pading-inline-responsive);
-    display: grid;
-    gap: 2rem;
-}
-
-.flex-group {
+    padding-top: var(--promo-to-footer);
     display: flex;
     flex-direction: column;
-    gap: 64px;
+}
+
+.footer>.logo {
+    padding-bottom: 2rem;
+}
+
+.flex_group {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
 
 }
 
-.footer-p {
-    color: #191826;
-
-    font-family: IBM Plex Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    padding-right: 1.8rem;
+.footer_p {
+    font-size: var(--fs-footer-p);
+    max-width: var(--footer-p-width);
 }
 
-.footer-p-span {
+.footer_p_span {
     font-weight: var(--fw-bold);
 }
 
-.icons {
+
+.footer_icons {
     display: flex;
     gap: 1rem;
-    margin-bottom: 80px;
+    fill: hsla(var(--clr-hsl-black), 1);
+    align-items: center;
+}
+
+svg:is(:hover, :focus) {
+    fill: hsla(var(--clr-hsl-orange), 1);
+}
+
+
+@media (min-width:760px) and (max-width: 1109px) {
+    :root {
+        --grid-sml-columns: 2rem;
+        --body-padding-top: 3.875rem;
+        --body-padding-bottom: 5.3125rem;
+        --header-width: 74%;
+        --top-logo-to-tittle: 5.9375rem;
+        --tittle-padding-bottom: 1.625rem;
+        --header-p-to-promo: 6.9375rem;
+        --promo-to-footer: 5.4375rem;
+        --promo-height: 52.125rem;
+        --promo-grid-column: 2/3;
+        --card-padding-inline: 3rem;
+        --promo-app-width-responsive: 38%;
+        --footer-p-width: 22.875rem;
+        --promo-row-1: 8.625rem;
+        --promo-row-3: 6rem;
+        --promo-app-width: 16.875rem;
+        --promo-app-translate: 4rem;
+        --promo-card-width: 25rem;
+        --promo-card-translate: -3.625rem;
+
+
+        --fs-title: 4rem;
+        --fs-header-p: 1.125rem;
+
+        --bg-image: url(assets/bg-main-tablet.png);
+    }
+
+    .flex_group {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .header {
+        background-image: url("assets/bg-pattern-1.svg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 13.5rem;
+    }
+
+
+}
+
+@media (min-width: 1110px) {
+    :root {
+        --grid-sml-columns: 2rem;
+
+        --body-padding-top: 3.875rem;
+        --body-padding-bottom: 8.625rem;
+        --header-width: 54rem;
+        --top-logo-to-tittle: 7.9375rem;
+        --tittle-padding-bottom: 2.5rem;
+        --header-p-to-promo: 6.9375rem;
+        --promo-to-footer: 5.4375rem;
+        --promo-height: 58rem;
+        --promo-grid-column: 2/3;
+        --card-padding-block: 3.625rem;
+        --card-padding-inline: 3.375rem;
+        --card-title-padding-bottom: 1.375rem;
+        --card-height: 39.0625rem;
+        --promo-app-width-responsive: 25%;
+        --footer-p-width: 22.875rem;
+        --promo-row-1: 13.3125rem;
+        --promo-row-3: 7.1875rem;
+        --promo-app-width: 17.5rem;
+        --promo-app-translate: 7.375rem;
+        --promo-card-width: 27.875rem;
+        --promo-card-height: 39.0625rem;
+        --promo-card-translate: -5.9375rem;
+
+
+        --fs-title: 5.5rem;
+        --fs-header-p: 1.25rem;
+        --fs-card-title: 2.5rem;
+        --fs-card-p: 1.25rem;
+
+        --bg-image: url(assets/bg-main-desktop.png);
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .flex_group {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 22.5rem;
+    }
+
+    .header {
+        background-image: url("assets/bg-pattern-1.svg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 14rem;
+    }
+
 }
