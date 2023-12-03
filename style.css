@@ -152,11 +152,11 @@ body {
 
 .promo_card {
     grid-column: 1/-1;
-    justify-self: last baseline;
+    justify-self: end;
     transform: translateX(var(--promo-card-translate));
     max-width: var(--promo-card-width);
     grid-row: 2/4;
-    align-self: last baseline;
+    align-self: end;
     z-index: 3;
     background-color: hsla(var(--clr-hsl-orange), 1);
     border-radius: var(--brd-radius);
