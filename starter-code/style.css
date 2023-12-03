@@ -120,7 +120,6 @@ body {
 }
 
 .promo {
-    /* background-color: yellow; */
     height: var(--promo-height);
     grid-column: var(--promo-grid-column);
     display: grid;
@@ -276,7 +275,7 @@ svg:is(:hover, :focus) {
 }
 
 
-@media (min-width:760px) and (max-width: 1109px) {
+@media (min-width:40rem) and (max-width: 69.3125rem) {
     :root {
         --grid-sml-columns: 2rem;
         --body-padding-top: 3.875rem;
@@ -321,7 +320,7 @@ svg:is(:hover, :focus) {
 
 }
 
-@media (min-width: 1110px) {
+@media (min-width: 69.375rem) {
     :root {
         --grid-sml-columns: 2rem;
 
