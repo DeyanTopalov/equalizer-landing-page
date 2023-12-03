@@ -212,6 +212,11 @@ body {
     margin-bottom: 1rem;
 }
 
+.android {
+    background-color: hsla(var(--clr-hsl-white), 1);
+    color: hsla(var(--clr-hsl-black), 1);
+}
+
 .ios::before {
     content: "";
     background-image: url("starter-code/assets/icon-apple.svg");
