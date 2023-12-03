@@ -36,7 +36,7 @@
     --spacing-xxxl: 2.5rem;
 
     --brd-radius: 0.75rem;
-    --promo-bg-img: url(assets/bg-pattern-2.svg);
+    --promo-bg-img: url(starter-code/assets/bg-pattern-2.svg);
 
     /* Responsive */
 
@@ -70,7 +70,7 @@
     --promo-card-height: 34.125rem;
     --promo-card-translate: 0rem;
 
-    --bg-image: url(assets/bg-main-mobile.png);
+    --bg-image: url(starter-code/assets/bg-main-mobile.png);
 
     /* Resp - FS */
     --fs-title: 2.5rem;
@@ -214,7 +214,7 @@ body {
 
 .ios::before {
     content: "";
-    background-image: url("assets/icon-apple.svg");
+    background-image: url("starter-code/assets/icon-apple.svg");
     width: 17.08px;
     height: 20px;
     transform: translateY(-1px);
@@ -222,7 +222,7 @@ body {
 
 .android::before {
     content: "";
-    background-image: url("assets/icon-android.svg");
+    background-image: url("starter-code/assets/icon-android.svg");
     width: 17.08px;
     height: 20px;
 }
@@ -301,7 +301,7 @@ svg:is(:hover, :focus) {
         --fs-title: 4rem;
         --fs-header-p: 1.125rem;
 
-        --bg-image: url(assets/bg-main-tablet.png);
+        --bg-image: url(starter-code/assets/bg-main-tablet.png);
     }
 
     .flex_group {
@@ -311,7 +311,7 @@ svg:is(:hover, :focus) {
     }
 
     .header {
-        background-image: url("assets/bg-pattern-1.svg");
+        background-image: url("starter-code/assets/bg-pattern-1.svg");
         background-repeat: no-repeat;
         background-position: right top;
         background-size: 13.5rem;
@@ -353,7 +353,7 @@ svg:is(:hover, :focus) {
         --fs-card-title: 2.5rem;
         --fs-card-p: 1.25rem;
 
-        --bg-image: url(assets/bg-main-desktop.png);
+        --bg-image: url(starter-code/assets/bg-main-desktop.png);
     }
 
     .footer {
@@ -368,7 +368,7 @@ svg:is(:hover, :focus) {
     }
 
     .header {
-        background-image: url("assets/bg-pattern-1.svg");
+        background-image: url("starter-code/assets/bg-pattern-1.svg");
         background-repeat: no-repeat;
         background-position: right top;
         background-size: 14rem;
