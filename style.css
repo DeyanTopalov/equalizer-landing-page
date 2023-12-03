@@ -125,7 +125,6 @@ body {
     display: grid;
     place-content: center;
     justify-content: center;
-    grid-template-columns: var(--promo-columns);
     grid-template-columns: 1fr;
     grid-template-rows:
         var(--promo-row-1) var(--promo-row-2) var(--promo-row-3);
